@@ -1,0 +1,49 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+ul:root {
+    background-color: yellow;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 0 15px 12px;
+    background-color: #f1f1f1;
+    border-radius: 6px;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.notlink {
+    color: #6e6e6e;
+}
+
+li:first-child::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 4px;
+    content: "\f015";
+    color: #007bff;
+}
+
+li:first-child::after {
+    content: '/';
+    margin: 0 8px;
+    color: #6e6e6e;
+}
+
+li:nth-child(3)::before {
+    content: '/';
+    margin: 0 8px;
+    color: #6e6e6e;
+}
