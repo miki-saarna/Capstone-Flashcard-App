@@ -7,6 +7,7 @@
 - [Description](#description)
 - [Technologies](#technologies)
 - [How To Use](#how-to-use)
+- [Application Features](#application-features)
 - [License](#license)
 - [Author Info](#author-info)
 
@@ -37,7 +38,7 @@ This application is a digital flashcard study tool. Rather than purchasing flash
 2. Run `npm install` to install project dependencies
 3. Run `npm start` to start your server
 
-## Application Components
+## Application Features
 
 ### Create Deck
 
