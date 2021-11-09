@@ -23,6 +23,7 @@ build/
 .vercel
 .screenshots/
 .qualified-attach.json
+Procfile
 
 npm-debug.log*
 yarn-debug.log*
